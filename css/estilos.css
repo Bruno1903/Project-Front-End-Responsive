@@ -32,3 +32,26 @@ nav > a {
     font-size: 28px;
     font-family: Pacifico, serif;
 }
+
+
+nav ul {
+    list-style: none;  /*Remove as bolinhas da lista*/
+    padding: 0; /*Remove o espaçamento interno da lista*/
+    display: flex;
+    flex-direction: column; /*Deixa a lista em coluna novamente*/
+    align-items: center; 
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block; /*Em um elemento de bloco eu posso alterar o espaçamento interno (padding)*/
+    padding: 10px 0;
+    width: 100%; /*Campo inteiro clicável*/
+    text-decoration: none; /*Remove decoração para tirar o sublinhado*/
+    color: #f1f1f1;
+}
